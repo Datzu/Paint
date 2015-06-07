@@ -18,7 +18,13 @@
             <div class="button" id="redButton" value="red"></div>
             <div class="button" id="greenButton" value="green"></div>
             <div class="button" id="blueButton" value="blue"></div>
-            <p>Size: <input id="inputSize" /></p>
+            <p>
+                Size: <input id="inputSize" />
+                | Shape: <select id="inputShape">
+                             <option value="square">Square</option>
+                             <option value="circle">Circle</option>
+                         </select>
+            </p>
         </div>
         <canvas id="canvas" width="1024" height="500" style="border:1px solid #000000;"></canvas>
     </body>
