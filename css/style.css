@@ -1,0 +1,30 @@
+.button {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#blackButton {
+    background-color: black;
+}
+
+#whiteButton {
+    background-color: white;
+}
+
+#redButton {
+    background-color: red;
+}
+
+#greenButton {
+    background-color: green;
+}
+
+#blueButton {
+    background-color: blue;
+}
+
+#buttonPanel {
+    clear: both;
+}
